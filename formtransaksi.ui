@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormTransaksi</class>
+ <widget class="QWidget" name="FormTransaksi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>241</width>
+     <height>194</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="kodeTransaksiLabel">
+      <property name="text">
+       <string>Kode Transaksi</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="kodeTransaksiLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="tanggalLabel">
+      <property name="text">
+       <string>Tanggal</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="tanggalLineEdit"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="kodePelangganLabel">
+      <property name="text">
+       <string>Kode Pelanggan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="kodePelangganLineEdit"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="kodePaketLabel">
+      <property name="text">
+       <string>Kode Paket</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="kodePaketLineEdit"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="jumlahLabel">
+      <property name="text">
+       <string>Jumlah</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="jumlahLineEdit"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="keteranganLabel">
+      <property name="text">
+       <string>Keterangan</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="keteranganLineEdit"/>
+    </item>
+    <item row="6" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Send</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
